@@ -19,29 +19,41 @@
   </head>
   <body>
     <!-- header section -->
+
     <header class="header">
       <div class="conteiner flex">
         <nav class="nav">
           <a class="logo" href="index.html"><span class="accent-logo">Web</span>Studio</a>
           <ul class="navigation">
-            <li class="navigation-item"><a class="nav-item" href="./index.html">Студия</a></li>
+            <li class="navigation-item">
+              <a class="nav-item" href="./index.html">Студия</a>
+            </li>
             <li class="navigation-item">
               <a class="nav-item" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="navigation-item"><a class="nav-item" href="#">Контакты</a></li>
+            <li class="navigation-item">
+              <a class="nav-item" href="#">Контакты</a>
+            </li>
           </ul>
         </nav>
         <ul class="contacts">
           <li class="item">
-            <a class="contacts-items" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts-items" href="mailto:info@devstudio.com"
+              ><svg class="icon-letter" width="16" height="16">
+                <use href="images/symbol-defs.svg#letter"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="item">
-            <a class="contacts-items" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contacts-items phone-icon" href="tel:+380961111111"
+              ><svg class="icon-letter" width="16" height="16">
+                <use href="images/symbol-defs.svg#smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
     </header>
-
     <!-- main section -->
 
     <main>
@@ -152,25 +164,64 @@
         </div>
       </section>
     </main>
+
     <!-- footer section -->
+
     <footer class="footer">
-      <div class="conteiner">
-        <a class="logo space" href="index.html"
-          ><span class="accent-logo">Web</span><span class="white-logo">Studio</span></a
-        >
-        <address>
-          <ul class="list contact">
-            <li>
-              <a class="address" href="https://goo.gl/maps/7xt2YZpYj7ufyM8y8"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+      <div class="conteiner flex">
+        <div>
+          <a class="logo space" href="index.html"
+            ><span class="accent-logo">Web</span><span class="white-logo">Studio</span></a
+          >
+          <address>
+            <ul class="list contact">
+              <li>
+                <a class="address" href="https://goo.gl/maps/7xt2YZpYj7ufyM8y8"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li>
+                <a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="contacts-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-links">
+          <h2 class="link-title">присоединяйтесь</h2>
+          <ul class="link-list list">
+            <li class="link-list-item margin">
+              <a class="link-list-href link-style" href="">
+                <svg class="link-list-svg">
+                  <use href="images/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="link-list-item margin">
+              <a class="link-list-href link-style" href="">
+                <svg class="link-list-svg">
+                  <use href="images/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li><a class="contacts-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="link-list-item margin">
+              <a class="link-list-href link-style" href="">
+                <svg class="link-list-svg">
+                  <use href="images/symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="link-list-item margin">
+              <a class="link-list-href link-style" href="">
+                <svg class="link-list-svg">
+                  <use href="images/symbol-defs.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
